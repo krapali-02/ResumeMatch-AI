@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+Backend/node_modules/
+Frontend/node_modules/
+
+# Production build outputs
+dist/
+Backend/dist/
+Frontend/dist/
+
+# Environment configurations and secrets
+.env
+Backend/.env
+Frontend/.env
+*.env.local
+
+# Uploads and temporary data
+uploads/
+Backend/uploads/
+*.log
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Python & Machine Learning
+.venv/
+ai-service/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+models_cache/
+ai-service/models_cache/
